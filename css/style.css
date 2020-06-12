@@ -158,12 +158,13 @@ h1{
 
 .card3 {
     width: 30%;
-    float: left;;
+    float: left;
+    margin-right: 5%;
     /* da cancellare */
     border: 1px solid black;
     height: 500px;
     background-color: green;
-    margin-right: 5%;
+
 }
 
 .card3:last-child {
