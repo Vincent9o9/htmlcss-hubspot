@@ -156,6 +156,15 @@ h1{
     padding: 50px 57px;
 }
 
+.card3 {
+    width: 25%;
+    float: left;;
+    /* da cancellare */
+    border: 1px solid black;
+    height: 500px;
+    background-color: green;
+}
+
 
 
 
