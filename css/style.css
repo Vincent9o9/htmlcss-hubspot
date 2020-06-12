@@ -4,30 +4,27 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
 }
 
-/* .position-fix {
-    height: 100px;
-    background-color: red;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%
-} */
-
 .container {
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
-    /* da cancellare */
-    background-color: yellow;
-    height: 800px;
-}
+    margin:0 auto;
 
+}
+/* HEADER */
+.bg-rosa {
+    background-color: #fff2ee;
+}
+/* HEADER TOP */
 .header-top {
     height: 80px;
     background-color: white;
@@ -53,17 +50,42 @@ ul li {
 a {
     text-decoration: none;
     color: #33475b;
+
 }
 
 a i {
+
     padding-left: 20px;
 }
 
-.jumbo {
-    width: 40%;
+/* BANNER1 */
+
+.banner {
+    height: 400px;
+    position: relative;
 }
 
-.btg-orange {
+.jumbotron{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    /* da cancellare */
+    /* height: 100%; */
+    border: 1px solid black;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+.jumbotron p {
+    margin-bottom: 10px;
+}
+
+.jumbotron button {
+    margin-bottom: 10px;
+}
+
+.btg-large {
     color: white;
     border: 1px solid #ff7a59;
     background-color: #ff7a59;
@@ -71,6 +93,24 @@ a i {
     padding: 15px 30px;
 }
 
-.banner {
 
+
+.bg-verde {
+    background-color: #afebe4;
+}
+
+.bg-grigiochiaro {
+    background-color: #f5f8fa;
+}
+
+.bg-verdescuro {
+    background: #00a7ba;
+}
+
+.bg-bianco {
+    background-color: #ffffff;
+}
+
+.bg-nero {
+    #33475b;
 }
