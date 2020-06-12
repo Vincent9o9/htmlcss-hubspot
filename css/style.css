@@ -157,13 +157,17 @@ h1{
 }
 
 .card3 {
-    width: 25%;
+    width: 30%;
     float: left;;
     /* da cancellare */
     border: 1px solid black;
     height: 500px;
     background-color: green;
-    margin-right: 70px;
+    margin-right: 5%;
+}
+
+.card3:last-child {
+    margin-right: 0;
 }
 
 
