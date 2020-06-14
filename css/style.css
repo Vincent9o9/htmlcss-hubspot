@@ -125,11 +125,11 @@ h1{
 }
 
 .card2 {
-    /* da cancellare */
-    /* height: 500px; */
     background-color: white;
     border-radius: 15px;
     margin-bottom: 5%;
+    /* da cancellare */
+    /* height: 500px; */
     /* border: 1px solid black; */
 }
 
@@ -172,6 +172,29 @@ h1{
     margin-right: 0;
 }
 
+.img-btg-2 {
+    float: left;
+    padding: 50px 57px;
+    margin-left: 70px;
+}
+
+.text-2 {
+    float: left;
+    text-align: center;
+    /* padding: 50px 57px; */
+}
+
+.img-btg-2 img {
+    height: 100px;
+    vertical-align: middle;
+    width: auto;
+
+}
+
+.check-2 {
+    float: left;
+    text-align: center;
+}
 
 
 
