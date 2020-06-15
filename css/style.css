@@ -133,6 +133,12 @@ h1{
     /* border: 1px solid black; */
 }
 
+/* .hr {
+    height: 1px;
+    border: 1px solid black;
+    width: 50px;
+} */
+
 .img-btg img {
     height: 100px;
 }
@@ -174,8 +180,8 @@ h1{
 
 .img-btg-2 {
     float: left;
-    padding: 50px 57px;
-    margin-left: 70px;
+    /* padding: 50px 57px;
+    margin-left: 70px; */
 }
 
 .text-2 {
@@ -186,14 +192,16 @@ h1{
 
 .img-btg-2 img {
     height: 100px;
-    vertical-align: middle;
-    width: auto;
-
+    margin: 25px 120px;
 }
 
 .check-2 {
     float: left;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.btg-medium {
+    float: left;
 }
 
 
