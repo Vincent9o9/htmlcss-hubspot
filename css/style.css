@@ -160,17 +160,20 @@ h1{
 .text {
     width: 50%;
     float: left;
-    padding: 50px 57px;
+    line-height: 1.8;
+
 }
 
 .card3 {
     width: 30%;
     float: left;
     margin-right: 5%;
+    border-radius: 15px;
+    background-color: white;
     /* da cancellare */
-    border: 1px solid black;
-    height: 500px;
-    background-color: green;
+    /* border: 1px solid black;
+    height: 500px; */
+
 
 }
 
@@ -187,6 +190,7 @@ h1{
 .text-2 {
     float: left;
     text-align: center;
+    line-height: 1.8;
     /* padding: 50px 57px; */
 }
 
@@ -197,6 +201,7 @@ h1{
 
 .check-2 {
     float: left;
+    line-height: 1.8;
     /* text-align: center; */
 }
 
