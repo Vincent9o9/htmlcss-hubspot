@@ -128,10 +128,6 @@ h1{
     background-color: white;
     border-radius: 15px;
     margin-bottom: 5%;
-    padding:
-    /* da cancellare */
-    /* height: 500px; */
-    /* border: 1px solid black; */
 }
 
 .card2 .check p {
@@ -219,7 +215,7 @@ h1{
 }
 
 .btg-medium-2 {
-    float: left;    
+    float: left;
     border: 1px solid #ff7a59;
     background-color: #ff7a59;
     border-radius: 5px;
@@ -239,16 +235,27 @@ h1{
     background: #00a7ba;
     background-image: linear-gradient(to right, #00a7ba, #00B9A9);
     /* da cancellare */
-    height: 700px;
+    height: 800px;
 }
 
 .text-up {
     height: 300px;
-    border: 1px solid black;
     text-align: center;
     line-height: 1.8;
     padding: 90px;
     color: white;
+}
+
+.box-bottom {
+    height: 400px;
+    
+}
+
+.box-1 {
+    height: 50%;
+    width: 25%;
+    border: 1px solid white;
+    float: left;
 }
 
 
