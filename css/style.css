@@ -128,16 +128,23 @@ h1{
     background-color: white;
     border-radius: 15px;
     margin-bottom: 5%;
+    padding:
     /* da cancellare */
     /* height: 500px; */
     /* border: 1px solid black; */
 }
 
-/* .hr {
-    height: 1px;
-    border: 1px solid black;
-    width: 50px;
-} */
+.card2 .check p {
+    display: inline-block;
+}
+.check i{
+    color: white;
+    background-color: #ff7a59;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
 
 .img-btg img {
     height: 100px;
@@ -161,18 +168,18 @@ h1{
     width: 50%;
     float: left;
     line-height: 1.8;
+    margin-top: 40px;
 
 }
 
 .card3 {
     width: 30%;
     float: left;
+    padding: 20px;
     margin-right: 5%;
     border-radius: 15px;
     background-color: white;
-    /* da cancellare */
-    /* border: 1px solid black;
-    height: 500px; */
+
 
 
 }
@@ -183,15 +190,14 @@ h1{
 
 .img-btg-2 {
     float: left;
-    /* padding: 50px 57px;
-    margin-left: 70px; */
+
 }
 
 .text-2 {
     float: left;
     text-align: center;
     line-height: 1.8;
-    /* padding: 50px 57px; */
+
 }
 
 .img-btg-2 img {
@@ -202,26 +208,39 @@ h1{
 .check-2 {
     float: left;
     line-height: 1.8;
-    /* text-align: center; */
+
+}
+
+.check-2 i {
+    color: white;
+    background-color: #ff7a59;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .btg-medium {
     float: left;
+
 }
 
-
-
-
-
-
-
-
-
-
+/* SEZIONE 3 */
 
 .bg-verdescuro {
     background: #00a7ba;
+    background-image: linear-gradient(to right, #00a7ba, #00B9A9);
+    /* da cancellare */
+    height: 700px;
 }
+
+.text-up {
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 1.8;
+    padding: 90px;
+    color: white;
+}
+
 
 .bg-bianco {
     background-color: #ffffff;
