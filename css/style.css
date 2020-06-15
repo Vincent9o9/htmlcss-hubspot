@@ -248,19 +248,42 @@ h1{
 
 .box-bottom {
     height: 400px;
-    
 }
 
 .box-1 {
     height: 50%;
     width: 25%;
-    border: 1px solid white;
+    text-align: center;
+    line-height: 1.8;
+    /* border: 1px solid white; */
     float: left;
+    color: white;
+    padding: 20px;
+}
+.box-1 h2 {
+    font-size: 300%;
 }
 
+.bord-down {
+    border-bottom: 1px solid white;
+}
+
+.bord-right {
+    border-right: 1px solid white;
+}
 
 .bg-bianco {
     background-color: #ffffff;
+    height: 800px;
+    /* da cancellare */
+    border: 1px solid black;
+}
+
+.banner-1-left {
+    height: 800px;
+    width: 40%;
+    /* da cancellare */
+    border-right: 1px solid black;
 }
 
 .bg-nero {
